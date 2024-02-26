@@ -5,9 +5,10 @@
 }
 body{
     position: relative;
+    background-color: black;
 }
 .obj-width{
-    /* max-width: 1200px; */
+    max-width: 1200px;
     margin: auto;
 }
 nav{
@@ -53,11 +54,12 @@ font-size: 2.2rem;
 }
 .blog-card{
     width: 280px;
-    border: 1px solid blue;
-    border-radius: 10px;
+    border: 5px solid blue;
+    border-radius: 20px;
     cursor: pointer;
     padding: 1rem;
     margin: 10px;
+    box-shadow: 10px 10px;
 }
 .blog-card:hover{
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
@@ -70,13 +72,14 @@ font-size: 2.2rem;
  margin-bottom: 1rem;
 }
 .blog-card h2{
-    color: black;
+    color: white;
     font-size: 1.7rem;
     font-weight: 500;
 }
 .blog-card p{
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     padding-top: 0.7 rem;
+    color :white
 }
 
 @media(max-width: 500px){
@@ -93,4 +96,15 @@ font-size: 2.2rem;
     .blog-card{
         width: 100%;
     }
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content:center;
+}
+footer a{
+    color: white;
 }
